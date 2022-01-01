@@ -1,7 +1,7 @@
 ## pool-proxy
 简单的矿池代理(转发)程序,支持ssl和tcp
 
-**更新系统**
+**一.更新系统**
 
 CentOS: 
 
@@ -11,7 +11,7 @@ Ubuntu:
 
     sudo apt-get update && sudo apt-get dist-upgrade -y
 
-**安装常用软件**
+**二.安装常用软件**
 
 CentOS:
 
@@ -21,7 +21,7 @@ Ubuntu:
 
     sudo apt-get install curl git screen unzip wget ntp ntpdate -y
    
-**同步时间**
+**三.同步时间**
 
 CentOS:
 
@@ -33,7 +33,7 @@ Ubuntu:
     sudo ntpdate -s time.nist.gov
     sudo hwclock --systohc
 
-**安装Golang**
+**四.安装Golang**
 
 CentOS:
 
