@@ -21,3 +21,15 @@ Ubuntu:
 
     sudo apt-get install curl git screen unzip wget ntp ntpdate -y
    
+**同步时间**
+
+CentOS:
+
+    ntpdate time.nist.gov
+    hwclock --systohc
+
+Ubuntu:
+
+    sudo ntpdate -s time.nist.gov
+    sudo hwclock --systohc
+    
