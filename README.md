@@ -32,4 +32,16 @@ Ubuntu:
 
     sudo ntpdate -s time.nist.gov
     sudo hwclock --systohc
-    
+
+**安装Golang**
+
+CentOS:
+
+     yum install golang -y
+     
+Ubuntu:
+
+     sudo add-apt-repository -y ppa:longsleep/golang-backports
+     sudo apt-get update
+     sudo apt-get install golang-go -y
+
