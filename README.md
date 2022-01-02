@@ -42,6 +42,12 @@ Ubuntu:
 
 * 安装Golang
 
+判断Go是否已安装
+
+    go version
+
+如果有输出版本信息, 请跳过Golang安装这一步
+
 CentOS:
 
     yum install golang -y
