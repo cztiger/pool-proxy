@@ -9,7 +9,7 @@ import(
 	"encoding/json"
 	"path/filepath"
 
-	"github.com/380566067/pool-proxy/server"
+	"github.com/GoTyro/pool-proxy/server"
 )
 
 var cfg server.Config
