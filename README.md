@@ -14,7 +14,7 @@ Ubuntu:
     sudo apt-get update && sudo apt-get dist-upgrade -y
 
 * 安装常用软件
-
+```
 CentOS:
 
     yum install curl git screen unzip wget ntp ntpdate -y
@@ -22,9 +22,9 @@ CentOS:
 Ubuntu:
 
     sudo apt-get install curl git screen unzip wget ntp ntpdate -y
-
+```
 * 同步时间
-
+```
 CentOS:
 
     ntpdate time.nist.gov
@@ -34,9 +34,9 @@ Ubuntu:
 
     sudo ntpdate -s time.nist.gov
     sudo hwclock --systohc
-
+```
 * 安装Golang
-
+```
 CentOS:
 
     yum install golang -y
@@ -46,4 +46,8 @@ Ubuntu:
     sudo add-apt-repository ppa:longsleep/golang-backports
     sudo apt-get update
     sudo apt-get install golang-go -y
-
+```
+#### 安装
+    `git config --global http.sslVerify false && git config --global http.postBuffer 1048576000 && git config --global http.https://gopkg.in.followredirects true`
+    `git clone https://github.com/380566067/pool-proxy && cd pool-proxy`
+    
