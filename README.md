@@ -55,7 +55,7 @@ Ubuntu:
 #### 安装
 
     git config --global http.sslVerify false && git config --global http.postBuffer 1048576000 && git config --global http.https://gopkg.in.followredirects true
-    git clone https://github.com/380566067/pool-proxy && cd pool-proxy
+    git clone https://github.com/GoTyro/pool-proxy.git && cd pool-proxy
 
 #### 运行
 
