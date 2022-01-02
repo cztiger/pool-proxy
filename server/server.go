@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"encoding/json"
 
-	"github.com/380566067/pool-proxy/util"
+	"github.com/GoTyro/pool-proxy/util"
 )
 
 type ProxyServer struct {
