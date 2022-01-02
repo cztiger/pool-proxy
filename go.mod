@@ -1,4 +1,4 @@
-module pool-proxy
+module github.com/GoTyro/pool-proxy
 
 go 1.13
 
