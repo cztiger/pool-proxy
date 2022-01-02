@@ -6,7 +6,7 @@
 	"//": "检查矿池连通状况间隔时间",
 	"poolCheckInterval": "5s",
 	"//": "调试开关",
-	"debug": true,
+	"debug": false,
 
 	"server": {
 		"//": "侦听端口",
@@ -16,7 +16,7 @@
 		"//": "最大连接数量",
 		"maxConn": 8192,
 		"//": "是否启用ssl",
-		"tls" : true,
+		"tls" : false,
 		"//": "ssl->crt",
 		"certFile": "./certs/server.crt",
 		"//": "ssl->key",
