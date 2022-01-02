@@ -78,3 +78,4 @@ Ubuntu:
 #### 开启SSL
     
     本程序默认没有开启ssl, 如果需要开启ssl功能, 您需要免费自签一个SSL数字证书, 证书生成完毕后, 把 "XXXX.crt" 和 "XXXX.key" 这两个文件复制到 "certs" 文件夹, 并修改根目录里的 "config.json" 文件, 将 "tls" 选项设置为 true
+    注意: 开启SSL后, 您的矿机端需要把矿池地址修改为 "stratum+ssl://你服务器的IP或你的域名:你服务器设置的侦听端口"
