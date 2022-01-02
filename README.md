@@ -61,7 +61,7 @@ Ubuntu:
 编译运行:
 
     go build .
-    ./stratum-proxy
+    ./pool-proxy
 
 注: 两种运行方式任选其一
 
