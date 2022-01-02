@@ -48,6 +48,15 @@ Ubuntu:
     sudo apt-get install golang-go -y
 ```
 #### 安装
+```
     git config --global http.sslVerify false && git config --global http.postBuffer 1048576000 && git config --global http.https://gopkg.in.followredirects true
     git clone https://github.com/380566067/pool-proxy && cd pool-proxy
-    
+```
+#### 运行
+```
+直接运行:
+    go run main.go
+编译运行:
+    go build .
+注: 两种运行方式任选其一
+```   
